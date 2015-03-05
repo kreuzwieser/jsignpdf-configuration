@@ -65,4 +65,4 @@ su - root -c "wget https://raw.githubusercontent.com/kreuzwieser/jsignpdf-config
 Použití podpisového skriptu
 ===========================
 
-Jen spustit "sign_all_pdf" a skript automaticky podepíše všechny PDF dokumenty.
+Jen spustit "sign_all_pdf" a skript automaticky podepíše všechny PDF dokumenty v aktuálním adresáři.
