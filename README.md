@@ -44,7 +44,7 @@ B.	Do souboru do ~/jsignpdf/signature.png uložit nascanovaný podpis nebo stáh
 
 <pre>
 pushd ~/jsignpdf && \
-wget https://github.com/kreuzwieser/jsignpdf-configuration/blob/master/signature.png -O signature.png && \
+wget https://raw.githubusercontent.com/kreuzwieser/jsignpdf-configuration/master/signature.png -O signature.png && \
 popd
 </pre>
 
@@ -59,7 +59,7 @@ popd
 D.	Stáhnout bash script, který se ptá na heslo k úložišti certifikátu a podepíše všechny pdf v aktuálním adresáři. Umístit do adresáře v cestě.
 
 <pre>
-su - root -c "wget https://github.com/kreuzwieser/jsignpdf-configuration/blob/master/sign_all_pdf -O /usr/bin/sign_all_pdf && chmod 555 /usr/bin/sign_all_pdf"
+su - root -c "wget https://raw.githubusercontent.com/kreuzwieser/jsignpdf-configuration/master/sign_all_pdf -O /usr/bin/sign_all_pdf && chmod 555 /usr/bin/sign_all_pdf"
 </pre>
 
 Použití
