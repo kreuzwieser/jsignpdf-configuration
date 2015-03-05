@@ -19,7 +19,7 @@ mv jsignpdf-1.6.1 jsignpdf && \
 rm -f JSignPdf-1.6.1.zip && \
 cd jsignpdf && \
 echo Test funkcnosti javy && \
-java -jar JSignPdf.jar
+java -jar JSignPdf.jar -help
 </pre>
 
 2.	Instalace javy (pokud už není nainstalována)
