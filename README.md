@@ -18,7 +18,7 @@ unzip JSignPdf-1.6.1.zip && \
 mv jsignpdf-1.6.1 jsignpdf && \
 rm -f JSignPdf-1.6.1.zip && \
 cd jsignpdf && \
-echo Test funkcnosti javy && \
+echo Test funkcnosti javy spustenim helpu JSignPdf  && \
 java -jar JSignPdf.jar -help
 </pre>
 
