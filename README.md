@@ -1,2 +1,2 @@
-# jsignpdf-configuration
-konfigurace pro jsignpdf
+# ELEKTRONICKÉ PODEPISOVÁNÍ PDF POMOCÍ CERTIFIKÁTU
+
