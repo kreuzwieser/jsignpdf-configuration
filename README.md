@@ -43,20 +43,23 @@ A.	Předpokládáme, že ~/jsignpdf/keystore.p12 existuje z předchozího korku
 B.	Do souboru do ~/jsignpdf/signature.png uložit nascanovaný podpis nebo stáhnout univerzální obrázek, který bude sloužit jako něco na co půjde v PDF kliknout. Například tento obrázek
 
 <pre>
-wget https://github.com/kreuzwieser/jsignpdf-configuration/blob/master/signature.png -O ~/jsignpdf/signature.png
+pushd ~/jsignpdf && \
+wget https://github.com/kreuzwieser/jsignpdf-configuration/blob/master/signature.png -O signature.png && \
+popd
 </pre>
 
-C.	Stáhnout vzorovou konfiguraci pro JSignPDF
+C.	Stáhnout vzorovou konfiguraci pro JSignPDF do ~/.JSignPdf
 
 <pre>
-wget https://github.com/kreuzwieser/jsignpdf-configuration/blob/master/.JSignPdf –O ~/.JSignPdf
+pushd ~ && \
+wget https://github.com/kreuzwieser/jsignpdf-configuration/raw/master/.JSignPdf –O .JSignPdf && \
+popd
 </pre>
 
 D.	Stáhnout bash script, který se ptá na heslo k úložišti certifikátu a podepíše všechny pdf v aktuálním adresáři. Umístit do adresáře v cestě.
 
 <pre>
-sudo bash
-wget https://github.com/kreuzwieser/jsignpdf-configuration/blob/master/sign_all_pdf -O ~/usr/bin/sign_all_pdf
+su - root -c "wget https://github.com/kreuzwieser/jsignpdf-configuration/blob/master/sign_all_pdf -O /usr/bin/sign_all_pdf && chmod 555 /usr/bin/sign_all_pdf"
 </pre>
 
 Použití
