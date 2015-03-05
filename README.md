@@ -43,7 +43,7 @@ A.	Předpokládáme, že ~/jsignpdf/keystore.p12 existuje z předchozího korku
 B.	Do souboru do ~/jsignpdf/signature.png uložit nascanovaný podpis nebo stáhnout univerzální obrázek, který bude sloužit jako něco na co půjde v PDF kliknout. Například tento obrázek
 
 <pre>
-https://github.com/kreuzwieser/jsignpdf-configuration/blob/master/signature.png -O ~/jsignpdf /keystore.png
+https://github.com/kreuzwieser/jsignpdf-configuration/blob/master/signature.png -O ~/jsignpdf/signature.png
 </pre>
 
 C.	Stáhnout vzorovou konfiguraci pro JSignPDF
