@@ -33,6 +33,8 @@ ideálně nějaká nová SUN/Oracle java, ta je otestovaná že funguje
 Export certifikátu je možné provést například z Mozilla Firefox následujícím postupem:
 ![alt tag](https://github.com/kreuzwieser/jsignpdf-configuration/blob/master/export_certifikatu_z_firefox.png)
 
+Vzhledem k tomu, že certifikát se většinou přes prohlížeč generuje, tak by v prohlížeči měl být dostupný.
+
 Zazálohovaný certifikát uložit do souboru ~/jsignpdf/keystore.p12. V exportovaném souboru musí být pouze jeden certifikát.
 
 4.	konfigurace podepisování
