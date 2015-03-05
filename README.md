@@ -62,7 +62,7 @@ D.	Stáhnout bash script, který se ptá na heslo k úložišti certifikátu a p
 su - root -c "wget https://raw.githubusercontent.com/kreuzwieser/jsignpdf-configuration/master/sign_all_pdf -O /usr/bin/sign_all_pdf && chmod 555 /usr/bin/sign_all_pdf"
 </pre>
 
-Použití
-=======
+Použití podpisového skriptu
+===========================
 
 Jen spustit "sign_all_pdf" a skript automaticky podepíše všechny PDF dokumenty.
