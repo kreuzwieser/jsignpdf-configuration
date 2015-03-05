@@ -27,13 +27,15 @@ java -jar JSignPdf.jar -help
 
 ideálně nějaká nová SUN/Oracle java, ta je otestovaná že funguje
 
-3.	Export osobního certifikátu do formátu p12
-----------------------------------------------
+3.	Export osobního certifikátu do formátu PKCS12 (.p12)
+--------------------------------------------------------
 
 Export certifikátu je možné provést například z Mozilla Firefox následujícím postupem:
 ![alt tag](https://github.com/kreuzwieser/jsignpdf-configuration/blob/master/export_certifikatu_z_firefox.png)
 
 Vzhledem k tomu, že certifikát se většinou přes prohlížeč generuje, tak by v prohlížeči měl být dostupný.
+
+V prostředí českých VŠ osobní certifikáty vydává CESNET ve spolupráci s TERENOU a tento certifikát je možné vystavit pomocí prohlížeče zde: https://tcs-p.cesnet.cz/confusa/process_csr.php
 
 Zazálohovaný certifikát uložit do souboru ~/jsignpdf/keystore.p12. V exportovaném souboru musí být pouze jeden certifikát.
 
